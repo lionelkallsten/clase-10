@@ -8,3 +8,17 @@ h1{
     font-family: sans-serif;
     color: blue;
 }
+
+.holaMundo{
+    background-color: bisque;
+    text-align: center;
+    max-width: 650PX;
+    margin: 15px auto;
+}
+
+/* mobile last */
+@media (max-width: 650px){
+    .holaMundo{
+        background-color: green;
+    }
+}
